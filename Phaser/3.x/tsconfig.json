@@ -1,15 +1,17 @@
 {
 	"compilerOptions": {
 		"watch": false,
+		"module": "commonjs",
 		"sourceMap": false,
 		"declaration": true,
-        "stripInternal": true,
+    "stripInternal": true,
 		"alwaysStrict": true,
 		"noUnusedLocals": true,
 		"experimentalDecorators": true,
 		"allowSyntheticDefaultImports": true,
 		"target": "es5",
-		"outFile": "out/dragonBones.js",
+		"outDir": "out/dir/",
+		// "outFile": "out/dragonBones.js",
 		"lib": [
 			"es5",
 			"dom",
@@ -58,7 +60,7 @@
 		"../../DragonBones/src/dragonBones/animation/AnimationState.ts",
 		"../../DragonBones/src/dragonBones/animation/BaseTimelineState.ts",
 		"../../DragonBones/src/dragonBones/animation/TimelineState.ts",
-		
+
 		"../../DragonBones/src/dragonBones/event/EventObject.ts",
 		"../../DragonBones/src/dragonBones/event/IEventDispatcher.ts",
 
